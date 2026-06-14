@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- نیچے والی لائن میں اپنا گوگل سرچ کونسول کا میٹا ٹیگ پیسٹ کریں -->
+    <meta name="google-site-verification" content="یہاں_اپنا_کوڈ_پیسٹ_کریں" />
+    <title>وزیر اعلیٰ پنجاب اسکیمز پورٹل</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; text-align: right; }
+        .header { background: #005a36; color: white; padding: 25px; text-align: center; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header h2 { margin: 0; font-size: 28px; }
+        .header p { margin: 10px 0 0 0; font-size: 16px; opacity: 0.9; }
+        .container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-top: 5px solid #005a36; display: flex; flex-direction: column; justify-content: space-between; }
+        .card h3 { margin-top: 0; color: #005a36; font-size: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .card p { color: #555; font-size: 14px; line-height: 1.7; margin-bottom: 20px; }
+        .verify-box { background: #f9f9f9; padding: 15px; border-radius: 6px; border: 1px solid #eee; }
+        .verify-box input { width: 100%; padding: 11px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; text-align: center; font-size: 14px; }
+        .verify-box button { width: 100%; background: #005a36; color: white; border: none; padding: 11px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 15px; transition: 0.3s; }
+        .verify-box button:hover { background: #004428; }
+        .result { margin-top: 12px; font-weight: bold; text-align: center; display: none; font-size: 14px; padding: 8px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h2>وزیر اعلیٰ پنجاب فلاحی اسکیمز پورٹل</h2>
+    <p>مریم نواز شریف کی زیر قیادت جاری تمام اسکیموں کی تفصیلات اور آفیشل رجسٹریشن لنک</p>
+</div>
+
+<div class="container">
+    <!-- Scheme 1 -->
+    <div class="card">
+        <h3>🚲 وزیر اعلیٰ الیکٹرک بائیک اسکیم</h3>
+        <p>پنجاب بھر کے طلبہ اور اساتذہ کے لیے آسان ترین اقساط پر 20,000 سے زائد الیکٹرک اور پٹرول بائیکس کی فراہمی۔ اس پر تمام سود حکومت خود ادا کر رہی ہے۔</p>
+        <div class="verify-box">
+            <input type="text" placeholder="اپنا شناختی کارڈ نمبر (CNIC) درج کریں" class="cnic-input">
+            <input type="text" placeholder="اپنا موبائل نمبر درج کریں" class="mobile-input">
+            <button onclick="verifyAndRedirect(this, 'https://punjab.gov.pk')">اہلیت کی تصدیق کریں</button>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <!-- Scheme 2 -->
+    <div class="card">
+        <h3>🏠 اپنی زمین اپنا گھر پروگرام</h3>
+        <p>بے گھر اور کم آمدنی والے خاندانوں کے لیے 3 مرلہ کے مفت رہائشی پلاٹس اور گھر کی تعمیر کے لیے بلا سود آسان قرضوں کی انقلابی اسکیم۔</p>
+        <div class="verify-box">
+            <input type="text" placeholder="اپنا شناختی کارڈ نمبر (CNIC) درج کریں" class="cnic-input">
+            <input type="text" placeholder="اپنا موبائل نمبر درج کریں" class="mobile-input">
+            <button onclick="verifyAndRedirect(this, 'https://punjab.gov.pk')">اہلیت کی تصدیق کریں</button>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <!-- Scheme 3 -->
+    <div class="card">
+        <h3>📦 مریم کی دستک سروس</h3>
+        <p>شہریوں کی سہولت کے لیے ڈومیسائل، پیدائشی سرٹیفکیٹ، اور گاڑیوں کی رجسٹریشن جیسی اہم سرکاری خدمات براہ راست گھر کی دہلیز پر فراہم کرنے کا نظام۔</p>
+        <div class="verify-box">
+            <input type="text" placeholder="اپنا شناختی کارڈ نمبر (CNIC) درج کریں" class="cnic-input">
+            <input type="text" placeholder="اپنا موبائل نمبر درج کریں" class="mobile-input">
+            <button onclick="verifyAndRedirect(this, 'https://punjab.gov.pk')">اہلیت کی تصدیق کریں</button>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <!-- Scheme 4 -->
+    <div class="card">
+        <h3>💳 کمیشن برائے سماجی بہبود (Kisaan Card)</h3>
+        <p>پنجاب بھر کے مستحق کاشتکاروں، خاندانوں اور بیواؤں کے لیے ماہانہ مالی امداد اور سبسڈیز کی شفاف ترسیل کو یقینی بنانے کا خصوصی پروگرام۔</p>
+        <div class="verify-box">
+            <input type="text" placeholder="اپنا شناختی کارڈ نمبر (CNIC) درج کریں" class="cnic-input">
+            <input type="text" placeholder="اپنا موبائل نمبر درج کریں" class="mobile-input">
+            <button onclick="verifyAndRedirect(this, 'https://agripunjab.gov.pk')">اہلیت کی تصدیق کریں</button>
+            <div class="result"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+function verifyAndRedirect(button, officialUrl) {
+    var verifyBox = button.parentElement;
+    var cnic = verifyBox.querySelector('.cnic-input').value;
+    var mobile = verifyBox.querySelector('.mobile-input').value;
+    var resultDiv = verifyBox.querySelector('.result');
+    
+    if(cnic.trim() === "" || mobile.trim() === "") {
+        resultDiv.style.display = "block";
+        resultDiv.style.background = "#ffebee";
+        resultDiv.style.color = "#c62828";
+        resultDiv.innerHTML = "⚠ برائے مہربانی اپنا شناختی کارڈ اور موبائل نمبر درج کریں۔";
+        return;
+    }
+    
+    resultDiv.style.display = "block";
+    resultDiv.style.background = "#fff3e0";
+    resultDiv.style.color = "#ef6c00";
+    resultDiv.innerHTML = "⏳ آپ کی درخواست پر عمل ہو رہا ہے، آفیشل پورٹل پر منتقل کیا جا رہا ہے...";
+    
+    setTimeout(function() {
+        window.location.href = officialUrl;
+    }, 1500);
+}
+</script>
+
+</body>
+</html>
